@@ -1,0 +1,89 @@
+
+#sobreunifacef {
+    margin: 20px 0; /* Espaçamento externo */
+    padding: 10px; /* Espaçamento interno */
+    text-align: justify; /* Alinhamento do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    letter-spacing: 0.5px; /* Espaçamento entre letras */
+}
+.alinhamento {
+    clear: both;
+}
+#cursosoferecidos {
+    margin-top: 50px; 
+}
+.tabela-cursos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-cursos th, .tabela-cursos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela-cursos thead {
+    background-color: #36c;
+    color: #fff;
+}
+
+.tabela-cursos tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 36px;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#finalidadesunifacef ol {
+    list-style-type: none; /* Remove a numeração padrão */
+    padding-left: 0; /* Remove o espaçamento padrão à esquerda */
+}
+
+#finalidadesunifacef ol li {
+    margin-bottom: 20px; /* Aumenta o espaçamento entre os itens da lista */
+    padding-left: 30px; /* Cria espaço para o ponto azul */
+    position: relative; /* Permite posicionar o pseudo-elemento relativo ao item da lista */
+}
+
+#finalidadesunifacef ol li::before {
+    content: ""; /* Conteúdo vazio para criar o ponto azul */
+    position: absolute; /* Posiciona o ponto azul em relação ao item da lista */
+    left: 0; /* Alinha o ponto azul à esquerda do item da lista */
+    top: 0; /* Alinha o ponto azul ao topo do item da lista */
+    width: 10px; /* Define a largura do ponto azul */
+    height: 10px; /* Define a altura do ponto azul */
+    background-color: blue; /* Define a cor do ponto azul */
+    border-radius: 50%; /* Torna o ponto azul circular */
+    margin-right: 10px; /* Cria espaço entre o ponto azul e o texto do item da lista */
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 36px;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}

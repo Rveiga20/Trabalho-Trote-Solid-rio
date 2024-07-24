@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background: #242424;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.content {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.tables {
+    width: 100%;
+    float: right;
+}
+
+.tables .table1,
+.tables .table2 {
+    width: 48%; /* ajuste de margem */
+    float: left;
+    margin-right: 2%; /* ajuste de margem */
+}
+
+.table1 table,
+.table2 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .tables .table1,
+    .tables .table2 {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+}
+.content {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.seguimento {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+.quadro {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aee3f5; /* Cor de fundo azul claro */
+    border-radius: 10px;
+}
+
+.quadro p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.table3-container {
+    margin: 0 auto; /* Isso centralizará o contêiner (e, consequentemente, a tabela) na página */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+}
+
+.table3 {
+    width: 100%; /* Garante que a tabela ocupe toda a largura do contêiner */
+    margin-left: 7%; /* Adiciona uma margem à esquerda para mover a tabela para a direita */
+}
+
+.table3-caption {
+    margin-left: 0%; /* Adiciona uma margem à esquerda para centralizar o título */
+}
+.quadro2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aee3f5; /* Cor de fundo azul claro */
+    border-radius: 10px;
+    clear: both; /* Isso garante que o quadro fique abaixo da tabela */
+}
+
+.quadro2 p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.campanhaleite {
+    text-align: center;
+}
+
+.campanhaleite p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.tabela-ordem-sorteio {
+    margin: 0 auto;
+    width: 70%; /* Ajuste a largura conforme necessário */
+}
+
+.tabela-ordem-sorteio table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-ordem-sorteio caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.alimentos-suplementos {
+    text-align: center;
+    margin-top: 20px;
+}
+.quadro3 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aee3f5;
+    border-radius: 10px;
+    clear: both;
+}
+
+.quadro3 p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.info-items p {
+    margin: 10px 0;
+}
+#textoavulsos {
+    text-align: center;
+}
+
+#textoavulsos p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.informacoes-adicionais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quadro4 {
+   text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aee3f5; /* Cor de fundo azul claro */
+    border-radius: 10px;
+    clear: both; /* Isso garante que o quadro fique abaixo da tabela */
+}
+.pontuacaofacultativa {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.quadro-doacao-sangue {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aee3f5; /* Azul claro */
+    border-radius: 10px;
+}
+#final {
+    margin-top: 35px;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

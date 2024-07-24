@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="styles/calculadora.css">
+    <script src="./scripts/scripts.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        <h1>Trote Solidário Uni-FACEF</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="introducao.html">Introdução</a></li>
+            <li><a href="objetivo.html">Objetivo</a></li>
+            <li><a href="formato.html">Formato</a></li>
+            <li><a href="1etapa.html">1a. Etapa</a></li>
+            <li><a href="2etapa.html">2a. Etapa</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+            <li><a href="considera.html">Observações Finais</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 style="color: #007bff;">Vamos calcular seus pontos!<br></h2>
+        <p>Preencha os campos com as pontuações obtidas nas tarefas do trote</p>    
+            
+        <div id="content">
+            <form>
+                <div>
+                    <div class="caixa">
+                        <label for="leite"> Litro de leite doado:</label>
+                        <input placeholder="Litros de leite" type="number" id="leite"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="doacaosangue"> Número de doações de sangue realizadas:</label>
+                        <input placeholder="Número de doações" type="number" id="doacaosangue"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="acaosocial"> Digite os pontos obtidos na ação social:</label>
+                        <input placeholder="Pontuação da ação social" type="number" id="acaosocial"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="apmusical"> Digite os pontos obtidos na apresentação cultural:</label>
+                        <input placeholder="Pontuação da apresentação" type="number" id="apmusical"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="mascote"> Digite os pontos recebidos pelo mascote da equipe:</label>
+                        <input placeholder="Pontuação do mascote" type="number" id="mascote"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="quiz"> Digite os pontos obtidos no quiz:</label>
+                        <input placeholder="Pontuação do quiz" type="number" id="quiz"/>
+                    </div>
+                    <div>
+                        <h2 style="color: #007bff;">Vamos calcular suas doações de kits e suplementos</h2>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>1 - Amarela 2 - Laranja 3 - Roxa 4- Verde 5 - Vermelha</p>
+                    </div>
+                    <div class="caixa">
+                        <label for="equipe">Insira o número da sua equipe</label>
+                        <input type="number" id="equipe" placeholder="equipe">
+                    </div>
+                    <div class="caixa">
+                        <label for="kits"> Digite o número de Kits que a equipe conseguiu:</label>
+                        <input placeholder="Kits" type="number" id="kits"/>
+                    </div>
+                    <div class="caixa">
+                        <label for="suplementos"> Digite o número de suplementos que a equipe conseguiu:</label>
+                        <input placeholder="Suplementos" type="number" id="suplementos"/>
+                    </div>
+                    
+                </div>
+                <div>
+                    <h1 style="color: #007bff;" >Itens Avulsos</h1>
+                </div>
+                <div class="caixa">
+                    <label for="kitextra">Digite o numero de kits extras:</label>
+                    <input placeholder="Kits extras" type="number" id="kitextra">
+                </div>
+                <div class="caixa">
+                    <label for="latasuplemento">Digite o numero de latas de suplementos:</label>
+                    <input placeholder="Latas de suplementos" type="number" id="latasuplemento">
+                </div>
+                <div class="caixa">
+                    <label for="arroz5">Digite o numero de pacotes de arroz de 5KG:</label>
+                    <input placeholder="Pacotes de Arroz 5KG" type="number" id="arroz5">
+                </div>
+                <div class="caixa">
+                    <label for="arroz1">Digite o numero de pacotes de arroz de 1KG:</label>
+                    <input placeholder="Pacotes de Arroz de 1KG " type="number" id="arroz1">
+                </div>
+                <div class="caixa">
+                    <label for="feijao2">Digite o numero de pacotes de feijão de 2KG:</label>
+                    <input placeholder="Pacotes de Feijão de 2KG " type="number" id="feijao2">
+                </div>
+                <div class="caixa">
+                    <label for="feijao1">Digite o numero de pacotes de feijão de 1KG:</label>
+                    <input placeholder="Pacotes de Feijão de 1KG " type="number" id="feijao1">
+                </div>
+                <div class="caixa">
+                    <label for="macarrao">Digite o numero de pacotes de macarrão de 500 gramas:</label>
+                    <input placeholder="Pacotes de Macarrão de 500g" type="number" id="macarrao">
+                </div>
+                <div class="caixa">
+                    <label for="oleo">Digite o numero de óleos de 900ML:</label>
+                    <input placeholder="Óleos de 900ml" type="number" id="oleo">
+                </div>
+                <div>
+                    <button type="button" onclick="calculadora()">Calcular</button>
+                </div>
+                <div>
+                    <p id="resultado"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
